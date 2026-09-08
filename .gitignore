@@ -1,0 +1,50 @@
+# ==========================================
+# Entornos Virtuales y Gestores de Paquetes
+# ==========================================
+.venv/
+venv/
+env/
+__pypackages__/
+
+# ==========================================
+# Variables de Entorno y Secretos (CRÍTICO)
+# ==========================================
+.env
+.env.*
+*.pem
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==========================================
+# Bases de Datos Locales (ChromaDB)
+# ==========================================
+chroma_data/
+chroma_db/
+*.sqlite3
+*.db
+
+# ==========================================
+# Archivos de Caché de Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# ==========================================
+# Logs y Archivos Temporales
+# ==========================================
+*.log
+*.tmp
+*.bak
+
+# ==========================================
+# Archivos de Sistema Operativo
+# ==========================================
+.DS_Store
+Thumbs.db
